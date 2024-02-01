@@ -2,15 +2,15 @@ import React, { useEffect } from "react";
 import { Chip, Container, Divider, Paper, Typography, Box } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 import Navbar from "../components/Navbar";
-import PokedexImage from "../assets/pokedex.png"
+import PokedexImage from "../assets/pokedex.png";
 
 
 export const Pokedex = ({ pokemonData }) => {
     const { name, sprites, stats } = pokemonData || {};
-    const navigate = useNavigate()
+    const navigate = useNavigate();
   
     if (!pokemonData) {
-      navigate("/")
+      navigate("/");
     }
 
     useEffect(() => {

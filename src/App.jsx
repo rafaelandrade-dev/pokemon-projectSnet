@@ -1,7 +1,7 @@
-import { useState } from 'react'
-import { Home } from './pages/Home'
-import { Router } from './router'
-import './App.css'
+import { useState } from 'react';
+import { Home } from './pages/Home';
+import { Router } from './router';
+import './App.css';
 
 function App() {
 
@@ -10,4 +10,4 @@ function App() {
   
 }
 
-export default App
+export default App;
